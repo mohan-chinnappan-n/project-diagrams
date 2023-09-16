@@ -3,31 +3,31 @@ graph TD
     A[Start]
   end
 
-  subgraph "Step 1: Define Trigger Object and Event"
+  subgraph "<b>Step 1: Define Trigger Object and Event</b>"
     B[Specify the Salesforce object and the event  Before Insert, After Update <br> that will trigger the execution of your trigger]
   end
 
-  subgraph "Step 2: Bulkify Trigger Logic"
+  subgraph "<b>Step 2: Bulkify Trigger Logic</b>"
     C[Ensure that your trigger logic is bulk-safe to handle multiple records efficiently.]
   end
 
-  subgraph "Step 3: Query and Update Efficiently"
+  subgraph "<b>Step 3: Query and Update Efficiently</b>"
     D[Use selective SOQL queries and minimize database operations to optimize performance.]
   end
 
-  subgraph "Step 4: Use Helper Methods"
+  subgraph "<b>Step 4: Use Helper Methods</b>"
     E[Encapsulate reusable logic in helper methods to promote code reusability and readability.]
   end
 
-  subgraph "Step 5: Implement Error Handling"
+  subgraph "<b>Step 5: Implement Error Handling</b>"
     F[Handle exceptions and errors gracefully, providing meaningful error messages to users.]
   end
 
-  subgraph "Step 6: Avoid Recursive Triggers"
+  subgraph "<b>Step 6: Avoid Recursive Triggers</b>"
     G[Implement safeguards to prevent recursive triggers, which can lead to infinite loops.]
   end
 
-  subgraph "Step 7: Test Thoroughly"
+  subgraph "<b>Step 7: Test Thoroughly</b>"
     H[Thoroughly test your trigger code with different scenarios, including <br>bulk data loads and edge cases, to ensure it works as intended.]
   end
 
