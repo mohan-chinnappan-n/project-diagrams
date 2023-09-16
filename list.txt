@@ -4,8 +4,8 @@ apex-test-classes-flow.txt
 apex-trigger-creation-flow.txt
 dashboard-req.txt
 flow-req.txt
+git-branches.txt
 git-ops-flow.txt
-list.txt
 lwc-creation-flow.txt
 lwc-req.txt
 perf-testing-flow.txt

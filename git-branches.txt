@@ -1,0 +1,31 @@
+graph TB;
+ 
+B:developR1--> STR1 & SITR1
+B:developR1-->B:release/R1
+B:release/R1-->UATR1;
+
+B:developR1-->B:developR2
+B:developR2--> STR2 & SITR2
+B:developR2-->B:release/R2
+B:release/R2-->UATR2
+
+
+
+style B:developR1  fill:#ff9,stroke:#333,stroke-width:4px
+style STR1  fill:#ff9,stroke:#333,stroke-width:4px
+style SITR1  fill:#ff9,stroke:#333,stroke-width:4px
+style B:release/R1  fill:#ff9,stroke:#333,stroke-width:4px
+style UATR1 fill:#ff9,stroke:#333,stroke-width:4px
+
+
+
+style B:developR2  fill:#f9f,stroke:#333,stroke-width:4px
+style STR2  fill:#f9f,stroke:#333,stroke-width:4px
+style SITR2 fill:#f9f,stroke:#333,stroke-width:4px
+style B:release/R2  fill:#f9f,stroke:#333,stroke-width:4px
+style UATR2 fill:#f9f,stroke:#333,stroke-width:4px
+
+
+
+
+
