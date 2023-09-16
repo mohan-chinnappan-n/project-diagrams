@@ -12,6 +12,7 @@ git-branches.txt
 git-ops-flow.txt
 lwc-creation-flow.txt
 lwc-req.txt
+perf-playwright.txt
 perf-testing-flow.txt
 playwright.txt
 reactjs-dev-flow.txt
