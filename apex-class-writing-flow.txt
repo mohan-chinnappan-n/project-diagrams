@@ -1,3 +1,6 @@
+---
+title: Example Apex Class Writing flow 
+---
 graph TD
 
 subgraph "Best Practices for Writing Apex Classes"

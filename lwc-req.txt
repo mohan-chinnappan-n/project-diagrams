@@ -1,3 +1,6 @@
+---
+title: Example LWC Development Diagram 
+---
 graph TB
   subgraph "Requirement: Lightning Web Component Development in Salesforce"
     subgraph "Functional Requirements"
@@ -29,4 +32,15 @@ graph TB
       Z(Dependency: Apex Classes)
     end
   end
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style 1 fill:#f9f,stroke:#333,stroke-width:4px
+style 2 fill:#ff9,stroke:#333,stroke-width:4px
+style 3 fill:#9ff,stroke:#333,stroke-width:4px
+style 4 fill:#9ff,stroke:#333,stroke-width:4px
+style 5 fill:#9ff,stroke:#333,stroke-width:4px
+
+
+
 

@@ -1,49 +1,52 @@
+---
+title: Example Experience Cloud Setup Flow 
+---
 graph TD
   subgraph "Start"
     A[Start]
   end
 
-  subgraph "Step 1: Plan and Design"
+  subgraph "<b>Step 1: Plan and Design</b>"
     B[Plan and Design Experience Cloud]
   end
 
-  subgraph "Step 2: Set Up Salesforce Org"
+  subgraph "<b>Step 2: Set Up Salesforce Org</b>"
     C[Set Up Salesforce Org and Licensing]
   end
 
-  subgraph "Step 3: Configure Community"
+  subgraph "<b>Step 3: Configure Community</b>"
     D[Configure Community Settings]
   end
 
-  subgraph "Step 4: Design User Interface"
+  subgraph "<b>Step 4: Design User Interface</b>"
     E[Design User Interface and Themes]
   end
 
-  subgraph "Step 5: Create Custom Pages"
+  subgraph "<b>Step 5: Create Custom Pages</b>"
     F[Create Custom Pages and Components]
   end
 
-  subgraph "Step 6: Define User Access"
+  subgraph "<b>Step 6: Define User Access</b>"
     G[Define User Access and Permissions]
   end
 
-  subgraph "Step 7: Integrate Data"
+  subgraph "<b>Step 7: Integrate Data</b>"
     H[Integrate Data Sources and APIs]
   end
 
-  subgraph "Step 8: Testing"
+  subgraph "<b>Step 8: Testing</b>"
     I[Test Experience Cloud Functionality]
   end
 
-  subgraph "Step 9: Branding and Styling"
+  subgraph "<b>Step 9: Branding and Styling</b>"
     J[Branding and Styling]
   end
 
-  subgraph "Step 10: Security and Compliance"
+  subgraph "<b>Step 10: Security and Compliance</b>"
     K[Security and Compliance]
   end
 
-  subgraph "Step 11: Deployment"
+  subgraph "<b>Step 11: Deployment</b>"
     L[Deployment and Launch]
   end
 

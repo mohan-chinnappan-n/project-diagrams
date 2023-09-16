@@ -1,3 +1,6 @@
+---
+title: Example Git branches
+---
 graph TB;
  
 B:developR1--> STR1 & SITR1

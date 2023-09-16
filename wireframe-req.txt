@@ -1,3 +1,6 @@
+---
+title: Example Wireframe Creation flow 
+---
 graph TB
   subgraph "Requirement: Wireframe Creation in Salesforce"
     subgraph "Functional Requirements"
@@ -29,4 +32,17 @@ graph TB
       Z(Dependency: Integration with Storage)
     end
   end
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style D fill:#f9f,stroke:#333,stroke-width:4px
+style 1 fill:#ff9,stroke:#333,stroke-width:4px
+style 2 fill:#9ff,stroke:#333,stroke-width:4px
+style 3 fill:#9ff,stroke:#333,stroke-width:4px
+style 4 fill:#9ff,stroke:#333,stroke-width:4px
+style 5 fill:#9ff,stroke:#333,stroke-width:4px
+
+
+
+
 

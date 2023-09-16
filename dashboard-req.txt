@@ -1,3 +1,6 @@
+---
+title: Example Requirements diagrom for Salesforce Account Dashboard and Reports  
+---
 graph TB
   subgraph "Requirement: Salesforce Account Dashboard with Reports and Graphs"
     subgraph "Functional Requirements"

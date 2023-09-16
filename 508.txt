@@ -1,3 +1,6 @@
+---
+title: Example 508 (accessibility) testing diagram
+---
 graph TD
   subgraph "Start"
     A[Start]

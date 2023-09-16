@@ -1,3 +1,6 @@
+---
+title: Example QA diagram
+---
 graph TD
   subgraph "Start"
     A[Start]

@@ -1,3 +1,6 @@
+---
+title: Example Performance Testing with Playwright 
+---
 graph TD
   subgraph "Start"
     A[Start]

@@ -1,3 +1,6 @@
+---
+title: Example Salesforce Flow creation Diagram 
+---
 graph TB
   subgraph "Requirement: Flow Creation in Salesforce"
     subgraph "Functional Requirements"

@@ -1,0 +1,19 @@
+---
+title: Example Git diagram
+---
+gitGraph
+   commit id: "1000"
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit
+   checkout develop
+   branch feature
+   commit
+   commit
+   merge develop

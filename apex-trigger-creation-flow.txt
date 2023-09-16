@@ -1,3 +1,6 @@
+---
+title: Example Apex Trigger Creation Flow 
+---
 graph TD
   subgraph "Start"
     A[Start]

@@ -1,3 +1,6 @@
+---
+title: Example Git ops flow diagram
+---
 graph TD
 
 subgraph Local Repository

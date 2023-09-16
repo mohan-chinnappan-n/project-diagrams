@@ -1,3 +1,6 @@
+---
+title: Example account-merge solution diagram
+---
 graph TD
   subgraph "Start"
     A[Start]

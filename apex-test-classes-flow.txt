@@ -1,3 +1,6 @@
+---
+title: Example Apex Test Class Creation flow diagram
+---
 graph TD
   subgraph "Start"
     A[Start]

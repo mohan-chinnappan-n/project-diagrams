@@ -1,59 +1,62 @@
+---
+title: Example ReactJS development flow 
+---
 graph TD
   subgraph "Start"
     A[Start]
   end
 
-  subgraph "Step 1: Plan and Design"
+  subgraph "<b>Step 1: Plan and Design</b>"
     B[Plan and design your Salesforce Experience Cloud based on your community's goals and objectives.]
   end
 
-  subgraph "Step 2: Set Up Salesforce Org"
+  subgraph "<b>Step 2: Set Up Salesforce Org</b>"
     C[Ensure your Salesforce organization is properly set up, and acquire the necessary licenses for Experience Cloud]
   end
 
-  subgraph "Step 3: Configure Community"
+  subgraph "<b>Step 3: Configure Community</b>"
     D[Configure the settings for your community, including general preferences and security settings.]
   end
 
-  subgraph "Step 4: Design User Interface"
+  subgraph "<b>Step 4: Design User Interface</b>"
     E[Design the user interface and customize themes to match your branding.]
   end
 
-  subgraph "Step 5: Create Custom Pages"
+  subgraph "<b>Step 5: Create Custom Pages</b>"
     F[Develop custom pages and components to tailor the community to your needs.]
   end
 
-  subgraph "Step 6: Define User Access"
+  subgraph "<b>Step 6: Define User Access</b>"
     G[Define user access and permissions to control who can access and interact with your community]
   end
 
-  subgraph "Step 7: Integrate Data"
+  subgraph "<b>Step 7: Integrate Data</b>"
     H[Integrate external data sources and APIs to provide dynamic content and functionality. ]
   end
 
-  subgraph "Step 8: Testing"
+  subgraph "<b>Step 8: Testing</b>"
     I[ Thoroughly test your Experience Cloud to ensure all features and functionality work as expected.]
   end
 
-  subgraph "Step 9: Branding and Styling"
+  subgraph "<b>Step 9: Branding and Styling</b>"
     J[Apply branding and styling to make the community visually appealing and align with your brand identity.]
   end
 
-  subgraph "Step 10: Security and Compliance"
+  subgraph "<b>Step 10: Security and Compliance</b>"
     K[Ensure security and compliance measures are in place to protect data and meet regulatory requirements]
   end
 
-  subgraph "Step 11: Accessibility"
+  subgraph "<b>Step 11: Accessibility</b>"
     L[Make the sure the site is accessible]
   end
 
-  subgraph "Step 12: Perform Pen Test"
+  subgraph "<b>Step 12: Perform Pen Test</b>"
     M[Perform Pen Test]
   end
 
 
 
-  subgraph "Step 13: Deployment"
+  subgraph "<b>Step 13: Deployment</b>"
     N[Deploy your Experience Cloud and launch it for external users.]
   end
 

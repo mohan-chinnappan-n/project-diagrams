@@ -1,19 +1,22 @@
+---
+title: Example for using Playwright for Testing 
+---
 graph TD
   subgraph "Start"
     A[Start]
   end
 
-  subgraph "Step 1: Install Playwright"
+  subgraph "<b>Step 1: Install Playwright</b>"
     B[Install Node.js]
     C[Install Playwright]
   end
 
-  subgraph "Step 2: Create Test Project"
+  subgraph "<b>Step 2: Create Test Project</b>"
     D[Create Project Directory]
     E[Initialize npm/yarn Project]
   end
 
-  subgraph "Step 3: Write Test Scripts"
+  subgraph "<b>Step 3: Write Test Scripts</b>"
     F[Write Test Scripts]
     F1[Navigate to Pages]
     F2[Interact with Elements]
@@ -21,25 +24,25 @@ graph TD
     F4[Assertions and Validation]
   end
 
-  subgraph "Step 4: Configure Browsers"
+  subgraph "<b>Step 4: Configure Browsers</b>"
     G[Configure Browsers]
     G1[Select Browsers - Chromium, Firefox, WebKit]
     G2[Browser Options]
   end
 
-  subgraph "Step 5: Run Tests"
+  subgraph "<b>Step 5: Run Tests</b>"
     H[Run Tests]
     H1[Execute Test Suite]
     H2[Generate Test Reports]
   end
 
-  subgraph "Step 6: Analyze Results"
+  subgraph "<b>Step 6: Analyze Results</b>"
     I[Analyze Test Results]
     I1[Identify Failures]
     I2[Debug Test Failures]
   end
 
-  subgraph "Step 7: End"
+  subgraph "<b>Step 7: End</b>"
     J[End]
   end
 
