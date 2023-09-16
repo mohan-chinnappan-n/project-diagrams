@@ -34,3 +34,9 @@ graph TD
   E --> F
   F --> G
 
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style D fill:#f9f,stroke:#333,stroke-width:4px
+style E fill:#ff9,stroke:#333,stroke-width:4px
+style F fill:#9ff,stroke:#333,stroke-width:4px

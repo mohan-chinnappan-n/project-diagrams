@@ -1,11 +1,11 @@
 graph TB
   subgraph "Requirement: Salesforce Account Dashboard with Reports and Graphs"
     subgraph "Functional Requirements"
-      1((Dashboard Creation))
-      2((Report Integration))
-      3((Graphical Representation))
-      4((Customization Options))
-      5((Real-Time Data Updates))
+      1((Dashboard <br> Creation))
+      2((Report  <br> Integration))
+      3((Graphical <br> Representation))
+      4((Customization <br>Options))
+      5((Real-Time <br> Data Updates))
     end
 
     subgraph "Non-Functional Requirements"
@@ -13,6 +13,7 @@ graph TB
       B((Security))
       C((Usability))
       D((Scalability))
+      E((Accessibility))
     end
 
     subgraph "Acceptance Criteria"
@@ -33,4 +34,32 @@ graph TB
 
      
   end
+
+style A fill:#efe,stroke:#333,stroke-width:4px
+style B fill:#efe,stroke:#333,stroke-width:4px
+style C fill:#efe,stroke:#333,stroke-width:4px
+style D fill:#efe,stroke:#333,stroke-width:4px
+style E fill:#efe,stroke:#333,stroke-width:4px
+
+
+style 1 fill:#9ff,stroke:#333,stroke-width:4px
+style 2 fill:#9ff,stroke:#333,stroke-width:4px
+style 3 fill:#9ff,stroke:#333,stroke-width:4px
+style 4 fill:#9ff,stroke:#333,stroke-width:4px
+style 5 fill:#9ff,stroke:#333,stroke-width:4px
+
+style i fill:#f9f,stroke:#333,stroke-width:4px
+style ii fill:#f9f,stroke:#333,stroke-width:4px
+style iii fill:#f9f,stroke:#333,stroke-width:4px
+style iv fill:#f9f,stroke:#333,stroke-width:4px
+style v fill:#f9f,stroke:#333,stroke-width:4px
+style vi fill:#f9f,stroke:#333,stroke-width:4px
+style vii fill:#f9f,stroke:#333,stroke-width:4px
+style viii fill:#f9f,stroke:#333,stroke-width:4px
+
+style X fill:#9ff,stroke:#333,stroke-width:4px
+style Y fill:#9ff,stroke:#333,stroke-width:4px
+
+ 
+
 
