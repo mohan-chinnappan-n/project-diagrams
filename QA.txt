@@ -1,0 +1,101 @@
+graph TD
+  subgraph "Start"
+    A[Start]
+  end
+
+  subgraph "<b>Step 1: Requirement Analysis</b>"
+    B[Requirement Analysis]
+    B1[Review Requirements]
+    B2[Identify Test Scenarios]
+  end
+
+  subgraph "<b>Step 2: Test Planning</b>"
+    C[Test Planning]
+    C1[Define Test Strategy]
+    C2[Create Test Plan]
+  end
+
+  subgraph "<b>Step 3: Test Case Design</b>"
+    D[Test Case Design]
+    D1[Design Test Cases]
+    D2[Review Test Cases]
+  end
+
+  subgraph "<b>Step 4: Test Data Setup</b>"
+    E[Test Data Setup]
+    E1[Prepare Test Data]
+    E2[Validate Test Data]
+  end
+
+  subgraph "<b>Step 5: Test Execution</b>"
+    F[Test Execution]
+    F1[Execute Test Cases]
+    F2[Record Test Results]
+  end
+
+  subgraph "<b>Step 6: Defect Reporting</b>"
+    G[Defect Reporting]
+    G1[Identify and Report Defects]
+    G2[Prioritize and Assign Defects]
+  end
+
+  subgraph "<b>Step 7: Regression Testing</b>"
+    H[Regression Testing]
+    H1[Select Test Cases for Regression]
+    H2[Execute Regression Tests]
+  end
+
+  subgraph "<b>Step 8: Test Reporting</b>"
+    I[Test Reporting]
+    I1[Generate Test Reports]
+    I2[Review Test Metrics]
+  end
+
+  subgraph "<b>Step 9: End</b>"
+    J[End]
+  end
+
+  A --> B
+  B --> B1
+  B --> B2
+  B2 --> D
+  B1 --> C
+  C --> C1
+  C --> C2
+  C2 --> D
+  C1 --> D
+  D --> D1
+  D --> D2
+  D1 --> E
+  D2 --> E
+  E --> E1
+  E --> E2
+  E1 --> F
+  E2 --> G
+  F --> F1
+  F --> F2
+  F1 --> G
+  G --> G1
+  G --> G2
+  G1 --> H
+  G2 --> I
+  H --> H1
+  H --> H2
+  H1 --> I
+  H2 --> I
+  I --> I1
+  I --> I2
+  I1 --> J
+  I2 --> J
+
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style D fill:#f9f,stroke:#333,stroke-width:4px
+style E fill:#ff9,stroke:#333,stroke-width:4px
+style F fill:#9ff,stroke:#333,stroke-width:4px
+
+style G fill:#ff9,stroke:#333,stroke-width:4px
+style H fill:#9ff,stroke:#333,stroke-width:4px
+style I fill:#f9f,stroke:#333,stroke-width:4px
+style J fill:#f9f,stroke:#333,stroke-width:4px
