@@ -1,0 +1,31 @@
+graph TD
+  subgraph "Start"
+    A[Start]
+  end
+
+  subgraph "Step 1: Retrieve Account Data"
+    B[Retrieve Account Data]
+  end
+
+  subgraph "Step 2: Sort Accounts"
+    C[Sort Accounts by Criteria]
+  end
+
+  subgraph "Step 3: Select Top 10"
+    D[Select Top 10 Accounts]
+  end
+
+  subgraph "Step 4: Display Results"
+    E[Display Top 10 Accounts]
+  end
+
+  subgraph "End"
+    F[End]
+  end
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+
