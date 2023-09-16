@@ -1,0 +1,36 @@
+graph TD
+  subgraph "Start"
+    A[Start]
+  end
+
+  subgraph "Step 1: Identify Accounts to Merge"
+    B[Identify Accounts]
+  end
+
+  subgraph "Step 2: Choose the Master Record"
+    C[Choose Master Record]
+  end
+
+  subgraph "Step 3: Merge Account Data"
+    D[Merge Account Data]
+  end
+
+  subgraph "Step 4: Update Related Records"
+    E[Update Related Records]
+  end
+
+  subgraph "Step 5: Complete Merge"
+    F[Complete Merge]
+  end
+
+  subgraph "End"
+    G[End]
+  end
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+
