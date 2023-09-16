@@ -1,0 +1,80 @@
+graph TD
+  subgraph "Start"
+    A[Start]
+  end
+
+  subgraph "Step 1: Plan and Design"
+    B[Plan and Design Experience Cloud]
+  end
+
+  subgraph "Step 2: Set Up Salesforce Org"
+    C[Set Up Salesforce Org and Licensing]
+  end
+
+  subgraph "Step 3: Configure Community"
+    D[Configure Community Settings]
+  end
+
+  subgraph "Step 4: Design User Interface"
+    E[Design User Interface and Themes]
+  end
+
+  subgraph "Step 5: Create Custom Pages"
+    F[Create Custom Pages and Components]
+  end
+
+  subgraph "Step 6: Define User Access"
+    G[Define User Access and Permissions]
+  end
+
+  subgraph "Step 7: Integrate Data"
+    H[Integrate Data Sources and APIs]
+  end
+
+  subgraph "Step 8: Testing"
+    I[Test Experience Cloud Functionality]
+  end
+
+  subgraph "Step 9: Branding and Styling"
+    J[Branding and Styling]
+  end
+
+  subgraph "Step 10: Security and Compliance"
+    K[Security and Compliance]
+  end
+
+  subgraph "Step 11: Deployment"
+    L[Deployment and Launch]
+  end
+
+  subgraph "End"
+    M[End]
+  end
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+  G --> H
+  H --> I
+  I --> J
+  J --> K
+  K --> L
+  L --> M
+
+style A fill:#ff99ff,stroke:#333,stroke-width:4px
+style B fill:#ff99ff,stroke:#333,stroke-width:4px
+style C fill:#ff99ff,stroke:#333,stroke-width:4px
+style D fill:#ff99ff,stroke:#333,stroke-width:4px
+style E fill:#ff99ff,stroke:#333,stroke-width:4px
+
+style F fill:#99ccff,stroke:#333,stroke-width:4px
+style G fill:#99ccff,stroke:#333,stroke-width:4px
+style H fill:#99ccff,stroke:#333,stroke-width:4px
+style I fill:#99ccff,stroke:#333,stroke-width:4px
+style J fill:#99ccff,stroke:#333,stroke-width:4px
+style K fill:#99ccff,stroke:#333,stroke-width:4px
+style L fill:#99ccff,stroke:#333,stroke-width:4px
+style M fill:#99ccff,stroke:#333,stroke-width:4px
