@@ -2,6 +2,7 @@ account-merge-flow.txt
 apex-class-writing-flow.txt
 apex-test-classes-flow.txt
 apex-trigger-creation-flow.txt
+customer-discovery.txt
 dashboard-req.txt
 experience-cloude-setup.txt
 flow-req.txt
