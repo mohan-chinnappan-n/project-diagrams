@@ -1,0 +1,74 @@
+graph TD
+  subgraph "Start"
+    A[Start]
+  end
+
+  subgraph "<b>Step 1: Understand Accessibility Standards</b>"
+    B[Familiarize yourself with accessibility standards and guidelines such as <br>WCAG - Web Content Accessibility Guidelines.]
+  end
+
+  subgraph "<b>Step 2: Prepare Test Environment</b>"
+    C[Set up a test environment with the necessary tools, <br> assistive technologies like Screen Reader, and sample data.]
+  end
+
+  subgraph "<b>Step 3: Identify Test Scenarios</b>"
+    D[Identify specific scenarios and use cases to test for <br> accessibility, including key user interactions.]
+  end
+
+  subgraph "<b>Step 4: Test with Assistive Technologies</b>"
+    E[Use assistive technologies like screen readers<br> and voice recognition software to evaluate the application's accessibility]
+  end
+
+  subgraph "<b>Step 5: Automated Testing</b>"
+    F[Utilize automated accessibility testing tools to perform scans and identify potential issues.]
+  end
+
+  subgraph "<b>Step 6: Manual Testing</b>"
+    G[Conduct manual testing, including keyboard navigation, <br> focus management, and visual inspection for accessibility compliance.]
+  end
+
+  subgraph "<b>Step 7: Evaluate Test Results</b>"
+    H[Analyze the results of automated and manual testing to  <br> identify accessibility issues and their severity.]
+  end
+
+  subgraph "<b>Step 8: Remediate Issues</b>"
+    I[Address identified accessibility issues by making <br> necessary code and design changes.]
+  end
+
+  subgraph "<b>Step 9: Retest</b>"
+    J[Retest the application to verify that accessibility issues <br> have been successfully remediated.]
+  end
+
+  subgraph "<b>Step 10: Document Accessibility Compliance</b>"
+    K[Document the accessibility compliance of the Salesforce application, <br> including test results and any remediation efforts.]
+  end
+
+  subgraph "End"
+    L[End]
+  end
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+  G --> H
+  H --> I
+  I --> J
+  J --> K
+  K --> L
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style D fill:#f9f,stroke:#333,stroke-width:4px
+style E fill:#ff9,stroke:#333,stroke-width:4px
+style F fill:#9ff,stroke:#333,stroke-width:4px
+
+style G fill:#ff9,stroke:#333,stroke-width:4px
+style H fill:#9ff,stroke:#333,stroke-width:4px
+style I fill:#f9f,stroke:#333,stroke-width:4px
+style J fill:#f9f,stroke:#333,stroke-width:4px
+style K fill:#f9f,stroke:#333,stroke-width:4px
+
+
