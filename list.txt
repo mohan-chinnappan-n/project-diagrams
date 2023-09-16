@@ -17,5 +17,4 @@ perf-testing-flow.txt
 playwright.txt
 reactjs-dev-flow.txt
 top-10-accounts-flow.txt
-vim.txt
 wireframe-req.txt
