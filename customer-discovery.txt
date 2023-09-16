@@ -54,7 +54,6 @@ style C fill:#9ff,stroke:#333,stroke-width:4px
 style D fill:#f9f,stroke:#333,stroke-width:4px
 style E fill:#ff9,stroke:#333,stroke-width:4px
 style F fill:#9ff,stroke:#333,stroke-width:4px
-style K fill:#f9f,stroke:#333,stroke-width:4px
 
 style G fill:#ff9,stroke:#333,stroke-width:4px
 style H fill:#9ff,stroke:#333,stroke-width:4px
