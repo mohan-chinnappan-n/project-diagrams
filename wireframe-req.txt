@@ -1,0 +1,32 @@
+graph TB
+  subgraph "Requirement: Wireframe Creation in Salesforce"
+    subgraph "Functional Requirements"
+      1((Wireframe Editor))
+      2((Template Selection))
+      3((Customization Options))
+      4((Version Control))
+      5((Sharing and Collaboration))
+    end
+
+    subgraph "Non-Functional Requirements"
+      A((Usability))
+      B((Performance))
+      C((Security))
+      D((Scalability))
+    end
+
+    subgraph "Acceptance Criteria"
+      i(1. Wireframe editor <br> is accessible)
+      ii(2. Users can <br> select templates)
+      iii(3. Customization  <br>options are available)
+      iv(4. Version control <br> is supported)
+      v(5. Sharing and collaboration <br> features are present)
+    end
+
+    subgraph "Dependencies"
+      X(Dependency: Salesforce Environment)
+      Y(Dependency: User Authentication)
+      Z(Dependency: Integration with Storage)
+    end
+  end
+

@@ -1,0 +1,32 @@
+graph TB
+  subgraph "Requirement: Lightning Web Component Development in Salesforce"
+    subgraph "Functional Requirements"
+      1((Component Creation))
+      2((Data Binding))
+      3((Event Handling))
+      4((Apex Integration))
+      5((Customization Options))
+    end
+
+    subgraph "Non-Functional Requirements"
+      A((Performance))
+      B((Security))
+      C((Usability))
+      D((Scalability))
+    end
+
+    subgraph "Acceptance Criteria"
+      i(1. Components can be created)
+      ii(2. Data can be bound to components)
+      iii(3. Event handling is supported)
+      iv(4. Integration with Apex is possible)
+      v(5. Customization options are available)
+    end
+
+    subgraph "Dependencies"
+      X(Dependency: Salesforce Development Environment)
+      Y(Dependency: User Authentication)
+      Z(Dependency: Apex Classes)
+    end
+  end
+

@@ -1,0 +1,36 @@
+graph TB
+  subgraph "Requirement: Salesforce Account Dashboard with Reports and Graphs"
+    subgraph "Functional Requirements"
+      1((Dashboard Creation))
+      2((Report Integration))
+      3((Graphical Representation))
+      4((Customization Options))
+      5((Real-Time Data Updates))
+    end
+
+    subgraph "Non-Functional Requirements"
+      A((Performance))
+      B((Security))
+      C((Usability))
+      D((Scalability))
+    end
+
+    subgraph "Acceptance Criteria"
+      i(1. Account Dashboard <br>is accessible)
+      ii(2. Users can select <br>and view different reports)
+      iii(3. Graphs and charts <br>are visually appealing)
+      iv(4. Customization options <br> are functional)
+      v(5. Real-time data <br> updates observed)
+      vi(6. No negative impact <br>on Salesforce performance)
+      vii(7. Access control based <br> on user roles)
+      viii(8. Users can effectively <br>utilize the dashboard)
+    end
+
+    subgraph "Dependencies"
+      X(Dependency: <br> Relevant data in Account object)
+      Y(Dependency: <br>User roles and permissions)
+    end
+
+     
+  end
+

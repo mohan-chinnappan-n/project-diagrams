@@ -1,0 +1,32 @@
+graph TB
+  subgraph "Requirement: Flow Creation in Salesforce"
+    subgraph "Functional Requirements"
+      1((Flow Designer))
+      2((Flow Logic))
+      3((Data Integration))
+      4((User Interaction))
+      5((Customization Options))
+    end
+
+    subgraph "Non-Functional Requirements"
+      A((Performance))
+      B((Security))
+      C((Usability))
+      D((Scalability))
+    end
+
+    subgraph "Acceptance Criteria"
+      i(1. Flow designer is accessible)
+      ii(2. Logic can be defined in flows)
+      iii(3. Data can be integrated into flows)
+      iv(4. User interactions are supported)
+      v(5. Customization options are available)
+    end
+
+    subgraph "Dependencies"
+      X(Dependency: Salesforce Environment)
+      Y(Dependency: User Authentication)
+      Z(Dependency: Data Sources)
+    end
+  end
+
