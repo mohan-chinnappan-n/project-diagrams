@@ -1,0 +1,31 @@
+graph TD
+
+subgraph Local Repository
+A(Create a Branch) --> B(Checkout the Branch)
+B --> C(Write and Modify Code)
+C --> D(Stage Changes)
+D --> E(Commit Changes)
+end
+
+subgraph Remote Repository
+F(Create Remote Repository)
+G(Push Branch to Remote)
+H(Pull Changes from Remote)
+end
+
+B --> G
+G --> H
+H --> B
+
+E --> G
+
+subgraph Collaboration
+I(Create Pull Request)
+J(Review Code)
+K(Approve and Merge)
+end
+
+G --> I
+J --> K
+I --> J
+
