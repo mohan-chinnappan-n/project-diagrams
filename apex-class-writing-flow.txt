@@ -1,0 +1,19 @@
+graph TD
+
+subgraph "Best Practices for Writing Apex Classes"
+    A(1. Define Clear and Descriptive Class Names as per the namespace standards)
+    B(2. Keep Classes Focused on a Single Responsibility)
+    C(3. Limit Class Size and Complexity)
+    D(4. Use Proper Access Modifiers - public, private, global)
+    E(5. Bulkify Your Code for Efficient Operations)
+    F(6. Handle Exceptions Gracefully)
+    G(7. Minimize SOQL Queries and DML Operations)
+    H(8. Use Comments and Documentation Liberally)
+    I(9. Follow Salesforce Naming Conventions)
+    J(10. Write Unit Tests for Your Classes)
+    K(11. Make sure to use PMD VSCode plugin installed and used in your IDE)
+
+end
+A --> B
+B --> C --> D --> K --> D --> E --> F --> G --> H --> I --> J 
+ 
