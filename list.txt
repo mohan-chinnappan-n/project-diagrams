@@ -9,6 +9,7 @@ dashboard-req.txt
 experience-cloude-setup.txt
 flow-req.txt
 git-branches.txt
+git-commit.txt
 git-ops-flow.txt
 lwc-creation-flow.txt
 lwc-req.txt
@@ -16,5 +17,6 @@ perf-playwright.txt
 perf-testing-flow.txt
 playwright.txt
 reactjs-dev-flow.txt
+statement-of-work.txt
 top-10-accounts-flow.txt
 wireframe-req.txt
