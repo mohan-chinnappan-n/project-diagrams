@@ -1,0 +1,54 @@
+graph TD
+
+subgraph Project
+  A[Client's Name]
+  B[Project Overview]
+  C[Project Objectives]
+  D[Scope of Work]
+  E[Deliverables]
+  F[Timeline]
+  G[Budget]
+  H[Payment Schedule]
+  I[Acceptance Criteria]
+  J[Terms and Conditions]
+end
+
+subgraph Development
+  K[Requirement Analysis]
+  L[Application Design]
+  M[Development]
+  N[Testing and Quality Assurance]
+  O[Deployment]
+  P[Post-Launch Support]
+end
+
+A --> B
+B --> C
+C -->|1. Develop eCommerce website and mobile app| D
+C -->|2. Create user-friendly interface| D
+C -->|3. Implement secure payment processing and order management| D
+C -->|4. Integrate inventory management| D
+C -->|5. Provide admin dashboard| D
+C -->|6. Ensure responsiveness and compatibility| D
+C -->|7. Optimize for speed and performance| D
+C -->|8. Launch application and provide support| D
+
+D -->|1. Requirement Analysis| K
+D -->|2. Application Design| L
+D -->|3. Development| M
+D -->|4. Testing and Quality Assurance| N
+D -->|5. Deployment| O
+D -->|6. Post-Launch Support| P
+
+P -->|Documentation and support| E
+E -->|1. eCommerce website| F
+E -->|2. Mobile application| F
+E -->|3. Admin dashboard| F
+E -->|4. Documentation| F
+E -->|5. Post-launch support| F
+
+F -->|Estimated Timeline| G
+G -->|Total Budget| H
+H -->|Payment milestones| I
+I -->|Completion criteria| J
+ 
