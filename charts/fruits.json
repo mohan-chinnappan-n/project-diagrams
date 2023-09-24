@@ -1,0 +1,22 @@
+{
+    "Apple": {
+        "Production": 1000,
+        "Accepted": 800,
+        "Reject": 200
+    },
+    "Mango": {
+        "Production": 1200,
+        "Accepted": 1000,
+        "Reject": 200
+    },
+    "Peach": {
+        "Production": 800,
+        "Accepted": 700,
+        "Reject": 100
+    },
+    "Plum": {
+        "Production": 800,
+        "Accepted": 700,
+        "Reject": 200
+    }
+}
