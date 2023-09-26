@@ -4,6 +4,8 @@ account-merge-flow.txt
 apex-class-writing-flow.txt
 apex-test-classes-flow.txt
 apex-trigger-creation-flow.txt
+c4.md
+charts
 customer-discovery.txt
 dashboard-req.txt
 experience-cloude-setup.txt
@@ -14,6 +16,7 @@ git-ops-flow.txt
 lwc-creation-flow.txt
 lwc-req.txt
 perf-playwright.txt
+perf-testing-flow-2.txt
 perf-testing-flow.txt
 playwright.txt
 reactjs-dev-flow.txt

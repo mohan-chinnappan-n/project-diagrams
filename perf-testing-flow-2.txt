@@ -1,0 +1,11 @@
+ graph TD;
+        A[Setup Sandbox for Perf testing]-->B[Draw a system diagram \nto visualize current and future features, systems,\n and users that involve Salesforce];
+        B-->C[For each part of the system: \n estimate peak load levels,\n average load\n levels features used\nIdentify your projected growth pattern];
+        C-->D[Calculate the throughput of your system in Requests per Second - RPS];
+        D-->E[Estimate the size and shape of your data, including \n    the number of accounts, users, feeds, groups, and other objects];
+        E-->F[Identify the key personas for your org and\n plan your tests around their page flows.\nDifferent personas have different data volumes and data visibility];
+        F-->G[Measure your browser octane score and network latency using \nthe same hardware and network conditions as your users.\n Resolve any performance issues before testing your org];
+        G-->H[For each test:\n Define the scope of your investigation:\n What components are involved in the test?\n What metrics you want to measure?\n Run your performance test multiple times to eliminate variance.\n Run your tests at regular intervals,\n and take note of any changes in response times and throughput. ];
+        H-->I[Coordinate testing with Salesforce:\nPerformance tests can generate large amounts of traffic. \nTo avoid having your tests flagged as malicious activity,\ngive Salesforce a heads up];
+
+     
