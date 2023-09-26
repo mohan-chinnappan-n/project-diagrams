@@ -9,3 +9,12 @@
         H-->I[Coordinate testing with Salesforce:\nPerformance tests can generate large amounts of traffic. \nTo avoid having your tests flagged as malicious activity,\ngive Salesforce a heads up];
 
      
+style A fill:#f9f,stroke:#333,stroke-width:4px
+style B fill:#ff9,stroke:#333,stroke-width:4px
+style C fill:#9ff,stroke:#333,stroke-width:4px
+style D fill:#f9f,stroke:#333,stroke-width:4px
+style E fill:#ff9,stroke:#333,stroke-width:4px
+style F fill:#9ff,stroke:#333,stroke-width:4px
+style G fill:#f9f,stroke:#333,stroke-width:4px
+style H fill:#ff9,stroke:#333,stroke-width:4px
+style I fill:#f9f,stroke:#333,stroke-width:4px
